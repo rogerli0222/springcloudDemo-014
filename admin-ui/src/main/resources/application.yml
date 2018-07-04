@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: admin-ui
+server:
+  port: 10000
+
+management:
+  security:
+    #关闭安全验证
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
