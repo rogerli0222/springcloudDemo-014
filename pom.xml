@@ -24,6 +24,7 @@
         <version>1.5.9.RELEASE</version>
 
     </parent>
+    <!--springcloud依赖-->
     <dependencyManagement>
         <dependencies>
             <dependency>
